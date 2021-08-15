@@ -61,33 +61,4 @@ describe('LocationSearchbox', () => {
 
     expect(mockOnChange).toHaveBeenCalledWith([expectedLocations[0]]);
   });
-
-  // it('should show suggestion options and handle onchange correctly', async () => {
-  //   const expectedQuery = 'san';
-  //   const expectedLocations = [
-  //     { title: 'San Francisco', woeid: 2487956 },
-  //     { title: 'San Jose', woeid: 2488042 },
-  //   ];
-  //   mockSearchLocationsApi.mockResolvedValue({
-  //     data: expectedLocations,
-  //   });
-
-  //   const { getByRole, getAllByRole } = render(<LocationSearchbox onChange={mockOnChange} />, {
-  //     redux: { mockDispatch, integration: true },
-  //   });
-  //   const input = getByRole('combobox');
-
-  //   fireEvent.change(input, { target: { value: expectedQuery } });
-
-  //   await waitFor(() => {
-  //     expect(getAllByRole('option').length).toBe(2);
-  //   });
-
-  //   expect(mockSearchLocationsApi).toHaveBeenCalledTimes(1);
-  //   expect(mockSearchLocationsApi).toHaveBeenCalledWith(expectedQuery);
-
-  //   fireEvent.click(getAllByRole('option')[0]);
-
-  //   expect(mockOnChange).toHaveBeenCalledWith([expectedLocations[0]]);
-  // });
 });
