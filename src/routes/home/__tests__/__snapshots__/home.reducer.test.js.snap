@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home.reducer should handle FETCH_WEATHER_FORECAST_REQUEST 1`] = `
+Object {
+  "data": undefined,
+  "forecast": Array [],
+  "isLoading": true,
+  "isSearching": false,
+  "locations": Array [],
+}
+`;
+
+exports[`home.reducer should handle FETCH_WEATHER_FORECAST_SUCCESS 1`] = `
+Object {
+  "data": undefined,
+  "forecast": Array [
+    Object {
+      "date": "2021-08-15",
+      "humidity": 73,
+      "maxTemp": 32.06,
+      "minTemp": 24.880000000000003,
+      "temp": 30.515,
+      "weatherStateAbbr": "hr",
+      "weatherStateImage": "https://www.metaweather.com/static/img/weather/png/64/hr.png",
+    },
+    Object {
+      "date": "2021-08-16",
+      "humidity": 68,
+      "maxTemp": 33.995000000000005,
+      "minTemp": 24.725,
+      "temp": 32.370000000000005,
+      "weatherStateAbbr": "lr",
+      "weatherStateImage": "https://www.metaweather.com/static/img/weather/png/64/lr.png",
+    },
+    Object {
+      "date": "2021-08-17",
+      "humidity": 70,
+      "maxTemp": 33.825,
+      "minTemp": 24.685,
+      "temp": 31.630000000000003,
+      "weatherStateAbbr": "hr",
+      "weatherStateImage": "https://www.metaweather.com/static/img/weather/png/64/hr.png",
+    },
+    Object {
+      "date": "2021-08-18",
+      "humidity": 69,
+      "maxTemp": 33.89,
+      "minTemp": 25.35,
+      "temp": 31.685000000000002,
+      "weatherStateAbbr": "hr",
+      "weatherStateImage": "https://www.metaweather.com/static/img/weather/png/64/hr.png",
+    },
+    Object {
+      "date": "2021-08-19",
+      "humidity": 70,
+      "maxTemp": 33.835,
+      "minTemp": 25.455,
+      "temp": 31.515,
+      "weatherStateAbbr": "hr",
+      "weatherStateImage": "https://www.metaweather.com/static/img/weather/png/64/hr.png",
+    },
+  ],
+  "isLoading": false,
+  "isSearching": false,
+  "locations": Array [],
+}
+`;
+
+exports[`home.reducer should handle SEARCH_LOCATIONS_REQUEST 1`] = `
+Object {
+  "data": undefined,
+  "forecast": Array [
+    Object {
+      "date": "2021-08-15",
+      "humidity": 73,
+      "maxTemp": 32.06,
+      "minTemp": 24.880000000000003,
+      "temp": 30.515,
+      "weatherStateAbbr": "hr",
+      "weatherStateImage": "https://www.metaweather.com/static/img/weather/png/64/hr.png",
+    },
+    Object {
+      "date": "2021-08-16",
+      "humidity": 68,
+      "maxTemp": 33.995000000000005,
+      "minTemp": 24.725,
+      "temp": 32.370000000000005,
+      "weatherStateAbbr": "lr",
+      "weatherStateImage": "https://www.metaweather.com/static/img/weather/png/64/lr.png",
+    },
+    Object {
+      "date": "2021-08-17",
+      "humidity": 70,
+      "maxTemp": 33.825,
+      "minTemp": 24.685,
+      "temp": 31.630000000000003,
+      "weatherStateAbbr": "hr",
+      "weatherStateImage": "https://www.metaweather.com/static/img/weather/png/64/hr.png",
+    },
+    Object {
+      "date": "2021-08-18",
+      "humidity": 69,
+      "maxTemp": 33.89,
+      "minTemp": 25.35,
+      "temp": 31.685000000000002,
+      "weatherStateAbbr": "hr",
+      "weatherStateImage": "https://www.metaweather.com/static/img/weather/png/64/hr.png",
+    },
+    Object {
+      "date": "2021-08-19",
+      "humidity": 70,
+      "maxTemp": 33.835,
+      "minTemp": 25.455,
+      "temp": 31.515,
+      "weatherStateAbbr": "hr",
+      "weatherStateImage": "https://www.metaweather.com/static/img/weather/png/64/hr.png",
+    },
+  ],
+  "isLoading": false,
+  "isSearching": true,
+  "locations": Array [],
+}
+`;
+
+exports[`home.reducer should handle SEARCH_LOCATIONS_SUCCESS 1`] = `
+Object {
+  "data": undefined,
+  "forecast": Array [
+    Object {
+      "date": "2021-08-15",
+      "humidity": 73,
+      "maxTemp": 32.06,
+      "minTemp": 24.880000000000003,
+      "temp": 30.515,
+      "weatherStateAbbr": "hr",
+      "weatherStateImage": "https://www.metaweather.com/static/img/weather/png/64/hr.png",
+    },
+    Object {
+      "date": "2021-08-16",
+      "humidity": 68,
+      "maxTemp": 33.995000000000005,
+      "minTemp": 24.725,
+      "temp": 32.370000000000005,
+      "weatherStateAbbr": "lr",
+      "weatherStateImage": "https://www.metaweather.com/static/img/weather/png/64/lr.png",
+    },
+    Object {
+      "date": "2021-08-17",
+      "humidity": 70,
+      "maxTemp": 33.825,
+      "minTemp": 24.685,
+      "temp": 31.630000000000003,
+      "weatherStateAbbr": "hr",
+      "weatherStateImage": "https://www.metaweather.com/static/img/weather/png/64/hr.png",
+    },
+    Object {
+      "date": "2021-08-18",
+      "humidity": 69,
+      "maxTemp": 33.89,
+      "minTemp": 25.35,
+      "temp": 31.685000000000002,
+      "weatherStateAbbr": "hr",
+      "weatherStateImage": "https://www.metaweather.com/static/img/weather/png/64/hr.png",
+    },
+    Object {
+      "date": "2021-08-19",
+      "humidity": 70,
+      "maxTemp": 33.835,
+      "minTemp": 25.455,
+      "temp": 31.515,
+      "weatherStateAbbr": "hr",
+      "weatherStateImage": "https://www.metaweather.com/static/img/weather/png/64/hr.png",
+    },
+  ],
+  "isLoading": false,
+  "isSearching": false,
+  "locations": Array [
+    Object {
+      "latt_long": "37.777119, -122.41964",
+      "location_type": "City",
+      "title": "San Francisco",
+      "woeid": 2487956,
+    },
+    Object {
+      "latt_long": "32.715691,-117.161720",
+      "location_type": "City",
+      "title": "San Diego",
+      "woeid": 2487889,
+    },
+    Object {
+      "latt_long": "37.338581,-121.885567",
+      "location_type": "City",
+      "title": "San Jose",
+      "woeid": 2488042,
+    },
+    Object {
+      "latt_long": "29.424580,-98.494614",
+      "location_type": "City",
+      "title": "San Antonio",
+      "woeid": 2487796,
+    },
+    Object {
+      "latt_long": "36.974018,-122.030952",
+      "location_type": "City",
+      "title": "Santa Cruz",
+      "woeid": 2488853,
+    },
+    Object {
+      "latt_long": "-33.463039,-70.647942",
+      "location_type": "City",
+      "title": "Santiago",
+      "woeid": 349859,
+    },
+    Object {
+      "latt_long": "36.406651,25.456530",
+      "location_type": "City",
+      "title": "Santorini",
+      "woeid": 56558361,
+    },
+    Object {
+      "latt_long": "43.461498,-3.810010",
+      "location_type": "City",
+      "title": "Santander",
+      "woeid": 773964,
+    },
+    Object {
+      "latt_long": "35.170429,128.999481",
+      "location_type": "City",
+      "title": "Busan",
+      "woeid": 1132447,
+    },
+    Object {
+      "latt_long": "28.46163,-16.267059",
+      "location_type": "City",
+      "title": "Santa Cruz de Tenerife",
+      "woeid": 773692,
+    },
+    Object {
+      "latt_long": "35.666431,-105.972572",
+      "location_type": "City",
+      "title": "Santa Fe",
+      "woeid": 2488867,
+    },
+  ],
+}
+`;
+
+exports[`home.reducer should return the initial state 1`] = `
+Object {
+  "data": undefined,
+  "forecast": Array [],
+  "isLoading": false,
+  "isSearching": false,
+  "locations": Array [],
+}
+`;

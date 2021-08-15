@@ -29,6 +29,8 @@ function render(ui, { locale = 'en', ...options } = {}) {
   return rtlRender(ui, { wrapper: Wrapper, ...rest });
 }
 
+export const emptyAction = { type: '', payload: {} };
+
 // re-export everything
 export * from '@testing-library/react';
 

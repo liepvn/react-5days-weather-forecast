@@ -1,0 +1,415 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home.saga fetchWeatherForecast should handle FAILURE 1`] = `
+Object {
+  "call": Array [
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "args": Array [
+          2122,
+        ],
+        "context": null,
+        "fn": "@@redux-saga-test-plan/json/function/fetchForecastByLocation",
+      },
+      "type": "CALL",
+    },
+  ],
+  "put": Array [
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "action": Object {
+          "payload": Object {},
+          "type": "FETCH_WEATHER_FORECAST_FAILURE",
+        },
+        "channel": undefined,
+      },
+      "type": "PUT",
+    },
+  ],
+}
+`;
+
+exports[`home.saga fetchWeatherForecast should handle SUCCESS 1`] = `
+Object {
+  "call": Array [
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "args": Array [
+          2122,
+        ],
+        "context": null,
+        "fn": "@@redux-saga-test-plan/json/function/fetchForecastByLocation",
+      },
+      "type": "CALL",
+    },
+  ],
+  "put": Array [
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "action": Object {
+          "payload": Object {
+            "consolidated_weather": Array [
+              Object {
+                "air_pressure": 1015,
+                "applicable_date": "2021-08-15",
+                "created": "2021-08-15T15:56:17.241083Z",
+                "humidity": 74,
+                "id": 6301494061039616,
+                "max_temp": 19.314999999999998,
+                "min_temp": 14.5,
+                "predictability": 71,
+                "the_temp": 21.310000000000002,
+                "visibility": 14.458686272170524,
+                "weather_state_abbr": "hc",
+                "weather_state_name": "Heavy Cloud",
+                "wind_direction": 254.6399627762891,
+                "wind_direction_compass": "WSW",
+                "wind_speed": 6.751997544887192,
+              },
+              Object {
+                "air_pressure": 1009.5,
+                "applicable_date": "2021-08-16",
+                "created": "2021-08-15T15:56:19.970425Z",
+                "humidity": 66,
+                "id": 6710658717450240,
+                "max_temp": 21.21,
+                "min_temp": 14.68,
+                "predictability": 70,
+                "the_temp": 22.205,
+                "visibility": 15.356567644953472,
+                "weather_state_abbr": "lc",
+                "weather_state_name": "Light Cloud",
+                "wind_direction": 269.0369380717442,
+                "wind_direction_compass": "W",
+                "wind_speed": 8.885437476126091,
+              },
+              Object {
+                "air_pressure": 1009,
+                "applicable_date": "2021-08-17",
+                "created": "2021-08-15T15:56:22.969805Z",
+                "humidity": 72,
+                "id": 5285622894821376,
+                "max_temp": 18.375,
+                "min_temp": 14.254999999999999,
+                "predictability": 70,
+                "the_temp": 20.46,
+                "visibility": 15.31524646066969,
+                "weather_state_abbr": "lc",
+                "weather_state_name": "Light Cloud",
+                "wind_direction": 259.38349247255644,
+                "wind_direction_compass": "W",
+                "wind_speed": 8.407470930623823,
+              },
+              Object {
+                "air_pressure": 1011.5,
+                "applicable_date": "2021-08-18",
+                "created": "2021-08-15T15:56:26.048771Z",
+                "humidity": 65,
+                "id": 6411522801664000,
+                "max_temp": 20.41,
+                "min_temp": 13.754999999999999,
+                "predictability": 70,
+                "the_temp": 21.509999999999998,
+                "visibility": 14.195224886661894,
+                "weather_state_abbr": "lc",
+                "weather_state_name": "Light Cloud",
+                "wind_direction": 224.4286329050097,
+                "wind_direction_compass": "SW",
+                "wind_speed": 6.683667137031736,
+              },
+              Object {
+                "air_pressure": 1013.5,
+                "applicable_date": "2021-08-19",
+                "created": "2021-08-15T15:56:28.975704Z",
+                "humidity": 70,
+                "id": 4564412020031488,
+                "max_temp": 20.205,
+                "min_temp": 14.52,
+                "predictability": 68,
+                "the_temp": 20.865000000000002,
+                "visibility": 14.28936262228585,
+                "weather_state_abbr": "c",
+                "weather_state_name": "Clear",
+                "wind_direction": 231.04043295874322,
+                "wind_direction_compass": "SW",
+                "wind_speed": 6.865788047167211,
+              },
+              Object {
+                "air_pressure": 1011,
+                "applicable_date": "2021-08-20",
+                "created": "2021-08-15T15:56:32.043415Z",
+                "humidity": 74,
+                "id": 5177095178158080,
+                "max_temp": 20.085,
+                "min_temp": 14.469999999999999,
+                "predictability": 70,
+                "the_temp": 19.89,
+                "visibility": 9.999726596675416,
+                "weather_state_abbr": "lc",
+                "weather_state_name": "Light Cloud",
+                "wind_direction": 246.5,
+                "wind_direction_compass": "WSW",
+                "wind_speed": 5.507510737294202,
+              },
+            ],
+            "latt_long": "37.777119, -122.41964",
+            "location_type": "City",
+            "parent": Object {
+              "latt_long": "37.271881,-119.270233",
+              "location_type": "Region / State / Province",
+              "title": "California",
+              "woeid": 2347563,
+            },
+            "sources": Array [
+              Object {
+                "crawl_rate": 360,
+                "slug": "bbc",
+                "title": "BBC",
+                "url": "http://www.bbc.co.uk/weather/",
+              },
+              Object {
+                "crawl_rate": 480,
+                "slug": "forecast-io",
+                "title": "Forecast.io",
+                "url": "http://forecast.io/",
+              },
+              Object {
+                "crawl_rate": 360,
+                "slug": "hamweather",
+                "title": "HAMweather",
+                "url": "http://www.hamweather.com/",
+              },
+              Object {
+                "crawl_rate": 180,
+                "slug": "met-office",
+                "title": "Met Office",
+                "url": "http://www.metoffice.gov.uk/",
+              },
+              Object {
+                "crawl_rate": 360,
+                "slug": "openweathermap",
+                "title": "OpenWeatherMap",
+                "url": "http://openweathermap.org/",
+              },
+              Object {
+                "crawl_rate": 720,
+                "slug": "wunderground",
+                "title": "Weather Underground",
+                "url": "https://www.wunderground.com/?apiref=fc30dc3cd224e19b",
+              },
+              Object {
+                "crawl_rate": 360,
+                "slug": "world-weather-online",
+                "title": "World Weather Online",
+                "url": "http://www.worldweatheronline.com/",
+              },
+            ],
+            "sun_rise": "2021-08-15T06:25:33.893965-07:00",
+            "sun_set": "2021-08-15T20:03:13.312463-07:00",
+            "time": "2021-08-15T10:37:34.407402-07:00",
+            "timezone": "US/Pacific",
+            "timezone_name": "LMT",
+            "title": "San Francisco",
+            "woeid": 2487956,
+          },
+          "type": "FETCH_WEATHER_FORECAST_SUCCESS",
+        },
+        "channel": undefined,
+      },
+      "type": "PUT",
+    },
+  ],
+}
+`;
+
+exports[`home.saga searchLocations should handle FAILURE 1`] = `
+Object {
+  "call": Array [
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "args": Array [
+          "san",
+        ],
+        "context": null,
+        "fn": "@@redux-saga-test-plan/json/function/searchLocations",
+      },
+      "type": "CALL",
+    },
+  ],
+  "put": Array [
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "action": Object {
+          "payload": Object {},
+          "type": "SEARCH_LOCATIONS_FAILURE",
+        },
+        "channel": undefined,
+      },
+      "type": "PUT",
+    },
+  ],
+}
+`;
+
+exports[`home.saga searchLocations should handle SUCCESS 1`] = `
+Object {
+  "call": Array [
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "args": Array [
+          "san",
+        ],
+        "context": null,
+        "fn": "@@redux-saga-test-plan/json/function/searchLocations",
+      },
+      "type": "CALL",
+    },
+  ],
+  "put": Array [
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "action": Object {
+          "payload": Array [
+            Object {
+              "latt_long": "37.777119, -122.41964",
+              "location_type": "City",
+              "title": "San Francisco",
+              "woeid": 2487956,
+            },
+            Object {
+              "latt_long": "32.715691,-117.161720",
+              "location_type": "City",
+              "title": "San Diego",
+              "woeid": 2487889,
+            },
+            Object {
+              "latt_long": "37.338581,-121.885567",
+              "location_type": "City",
+              "title": "San Jose",
+              "woeid": 2488042,
+            },
+            Object {
+              "latt_long": "29.424580,-98.494614",
+              "location_type": "City",
+              "title": "San Antonio",
+              "woeid": 2487796,
+            },
+            Object {
+              "latt_long": "36.974018,-122.030952",
+              "location_type": "City",
+              "title": "Santa Cruz",
+              "woeid": 2488853,
+            },
+            Object {
+              "latt_long": "-33.463039,-70.647942",
+              "location_type": "City",
+              "title": "Santiago",
+              "woeid": 349859,
+            },
+            Object {
+              "latt_long": "36.406651,25.456530",
+              "location_type": "City",
+              "title": "Santorini",
+              "woeid": 56558361,
+            },
+            Object {
+              "latt_long": "43.461498,-3.810010",
+              "location_type": "City",
+              "title": "Santander",
+              "woeid": 773964,
+            },
+            Object {
+              "latt_long": "35.170429,128.999481",
+              "location_type": "City",
+              "title": "Busan",
+              "woeid": 1132447,
+            },
+            Object {
+              "latt_long": "28.46163,-16.267059",
+              "location_type": "City",
+              "title": "Santa Cruz de Tenerife",
+              "woeid": 773692,
+            },
+            Object {
+              "latt_long": "35.666431,-105.972572",
+              "location_type": "City",
+              "title": "Santa Fe",
+              "woeid": 2488867,
+            },
+          ],
+          "type": "SEARCH_LOCATIONS_SUCCESS",
+        },
+        "channel": undefined,
+      },
+      "type": "PUT",
+    },
+  ],
+}
+`;
+
+exports[`home.saga should have the expected watchers 1`] = `
+Object {
+  "fork": Array [
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "args": Array [
+          "FETCH_WEATHER_FORECAST_REQUEST",
+          "@@redux-saga-test-plan/json/function/fetchWeatherForecast",
+        ],
+        "context": null,
+        "fn": "@@redux-saga-test-plan/json/function/takeLatest",
+      },
+      "type": "FORK",
+    },
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "args": Array [
+          "SEARCH_LOCATIONS_REQUEST",
+          "@@redux-saga-test-plan/json/function/searchLocations",
+        ],
+        "context": null,
+        "fn": "@@redux-saga-test-plan/json/function/takeLatest",
+      },
+      "type": "FORK",
+    },
+  ],
+  "take": Array [
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "pattern": "FETCH_WEATHER_FORECAST_REQUEST",
+      },
+      "type": "TAKE",
+    },
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "pattern": "SEARCH_LOCATIONS_REQUEST",
+      },
+      "type": "TAKE",
+    },
+  ],
+}
+`;
