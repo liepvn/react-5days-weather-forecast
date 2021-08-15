@@ -1,0 +1,153 @@
+{
+  "consolidated_weather": [
+    {
+      "id": 5041891352510464,
+      "weather_state_name": "Heavy Rain",
+      "weather_state_abbr": "hr",
+      "wind_direction_compass": "WSW",
+      "created": "2021-08-15T13:36:46.172298Z",
+      "applicable_date": "2021-08-15",
+      "min_temp": 24.880000000000003,
+      "max_temp": 32.06,
+      "the_temp": 30.515,
+      "wind_speed": 3.9529287251703384,
+      "wind_direction": 242.03318347567745,
+      "air_pressure": 1010.0,
+      "humidity": 73,
+      "visibility": 13.668302115644636,
+      "predictability": 77
+    },
+    {
+      "id": 4762324113031168,
+      "weather_state_name": "Light Rain",
+      "weather_state_abbr": "lr",
+      "wind_direction_compass": "ENE",
+      "created": "2021-08-15T13:36:49.166910Z",
+      "applicable_date": "2021-08-16",
+      "min_temp": 24.725,
+      "max_temp": 33.995000000000005,
+      "the_temp": 32.370000000000005,
+      "wind_speed": 4.372088004652827,
+      "wind_direction": 65.0,
+      "air_pressure": 1011.5,
+      "humidity": 68,
+      "visibility": 10.761838363954507,
+      "predictability": 75
+    },
+    {
+      "id": 6618849462976512,
+      "weather_state_name": "Heavy Rain",
+      "weather_state_abbr": "hr",
+      "wind_direction_compass": "E",
+      "created": "2021-08-15T13:36:51.959990Z",
+      "applicable_date": "2021-08-17",
+      "min_temp": 24.685,
+      "max_temp": 33.825,
+      "the_temp": 31.630000000000003,
+      "wind_speed": 4.136056486075983,
+      "wind_direction": 82.78787141362214,
+      "air_pressure": 1011.5,
+      "humidity": 70,
+      "visibility": 12.045901932712956,
+      "predictability": 77
+    },
+    {
+      "id": 5033961098051584,
+      "weather_state_name": "Heavy Rain",
+      "weather_state_abbr": "hr",
+      "wind_direction_compass": "S",
+      "created": "2021-08-15T13:36:54.937556Z",
+      "applicable_date": "2021-08-18",
+      "min_temp": 25.35,
+      "max_temp": 33.89,
+      "the_temp": 31.685000000000002,
+      "wind_speed": 4.996240814788304,
+      "wind_direction": 181.99174167649494,
+      "air_pressure": 1009.5,
+      "humidity": 69,
+      "visibility": 11.975686987990137,
+      "predictability": 77
+    },
+    {
+      "id": 5395300186324992,
+      "weather_state_name": "Heavy Rain",
+      "weather_state_abbr": "hr",
+      "wind_direction_compass": "SSW",
+      "created": "2021-08-15T13:36:57.971341Z",
+      "applicable_date": "2021-08-19",
+      "min_temp": 25.455,
+      "max_temp": 33.835,
+      "the_temp": 31.515,
+      "wind_speed": 6.108570399138365,
+      "wind_direction": 193.9530451421986,
+      "air_pressure": 1008.0,
+      "humidity": 70,
+      "visibility": 10.01961047482701,
+      "predictability": 77
+    },
+    {
+      "id": 6521200093167616,
+      "weather_state_name": "Heavy Rain",
+      "weather_state_abbr": "hr",
+      "wind_direction_compass": "S",
+      "created": "2021-08-15T13:37:01.048955Z",
+      "applicable_date": "2021-08-20",
+      "min_temp": 25.035,
+      "max_temp": 32.535,
+      "the_temp": 31.87,
+      "wind_speed": 3.808758450648215,
+      "wind_direction": 178.0,
+      "air_pressure": 1010.0,
+      "humidity": 70,
+      "visibility": 9.999726596675416,
+      "predictability": 77
+    }
+  ],
+  "time": "2021-08-15T22:16:28.778766+07:00",
+  "sun_rise": "2021-08-15T05:43:33.596973+07:00",
+  "sun_set": "2021-08-15T18:12:05.333674+07:00",
+  "timezone_name": "LMT",
+  "parent": {
+    "title": "Vietnam",
+    "location_type": "Country",
+    "woeid": 23424984,
+    "latt_long": "15.974210,107.868042"
+  },
+  "sources": [
+    {
+      "title": "BBC",
+      "slug": "bbc",
+      "url": "http://www.bbc.co.uk/weather/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Forecast.io",
+      "slug": "forecast-io",
+      "url": "http://forecast.io/",
+      "crawl_rate": 480
+    },
+    {
+      "title": "Met Office",
+      "slug": "met-office",
+      "url": "http://www.metoffice.gov.uk/",
+      "crawl_rate": 180
+    },
+    {
+      "title": "OpenWeatherMap",
+      "slug": "openweathermap",
+      "url": "http://openweathermap.org/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "World Weather Online",
+      "slug": "world-weather-online",
+      "url": "http://www.worldweatheronline.com/",
+      "crawl_rate": 360
+    }
+  ],
+  "title": "Ho Chi Minh City",
+  "location_type": "City",
+  "woeid": 1252431,
+  "latt_long": "10.759180,106.662498",
+  "timezone": "Asia/Ho_Chi_Minh"
+}

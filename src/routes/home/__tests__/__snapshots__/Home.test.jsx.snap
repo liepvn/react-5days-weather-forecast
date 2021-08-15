@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render initial forecast for the default city 1`] = `
+HTMLCollection [
+  <div
+    class="forecast-tile mb-2 border rounded"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-3"
+      >
+        <div
+          class="d-flex flex-column"
+        >
+          <p
+            class="mb-0 text-uppercase fs-3"
+          >
+            Sun
+          </p>
+          <div
+            class="humidity"
+          >
+            <div>
+              <i
+                class="bi bi-droplet-fill"
+              />
+               
+              <span
+                class="text-muted"
+              >
+                73
+                %
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-3"
+      >
+        <img
+          class="w-image"
+          src="https://www.metaweather.com/static/img/weather/png/64/hr.png"
+        />
+      </div>
+      <div
+        class="d-flex justify-content-end col-6"
+      >
+        <div
+          class="temperature d-flex flex-row"
+        >
+          <div
+            class="temperature__value d-flex flex-column text-end"
+          >
+            <div>
+              <span
+                class="fs-3"
+              >
+                31°C
+              </span>
+            </div>
+            <div
+              class="text-muted"
+            >
+              <span>
+                25°C
+              </span>
+               -
+               
+              <span>
+                32°C
+              </span>
+            </div>
+          </div>
+          <div
+            class="temperature__icon align-self-center"
+          >
+            <i
+              class="bi bi-thermometer-sun fs-1"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    class="forecast-tile mb-2 border rounded"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-3"
+      >
+        <div
+          class="d-flex flex-column"
+        >
+          <p
+            class="mb-0 text-uppercase fs-3"
+          >
+            Mon
+          </p>
+          <div
+            class="humidity"
+          >
+            <div>
+              <i
+                class="bi bi-droplet-fill"
+              />
+               
+              <span
+                class="text-muted"
+              >
+                68
+                %
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-3"
+      >
+        <img
+          class="w-image"
+          src="https://www.metaweather.com/static/img/weather/png/64/lr.png"
+        />
+      </div>
+      <div
+        class="d-flex justify-content-end col-6"
+      >
+        <div
+          class="temperature d-flex flex-row"
+        >
+          <div
+            class="temperature__value d-flex flex-column text-end"
+          >
+            <div>
+              <span
+                class="fs-3"
+              >
+                32°C
+              </span>
+            </div>
+            <div
+              class="text-muted"
+            >
+              <span>
+                25°C
+              </span>
+               -
+               
+              <span>
+                34°C
+              </span>
+            </div>
+          </div>
+          <div
+            class="temperature__icon align-self-center"
+          >
+            <i
+              class="bi bi-thermometer-sun fs-1"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    class="forecast-tile mb-2 border rounded"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-3"
+      >
+        <div
+          class="d-flex flex-column"
+        >
+          <p
+            class="mb-0 text-uppercase fs-3"
+          >
+            Tue
+          </p>
+          <div
+            class="humidity"
+          >
+            <div>
+              <i
+                class="bi bi-droplet-fill"
+              />
+               
+              <span
+                class="text-muted"
+              >
+                70
+                %
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-3"
+      >
+        <img
+          class="w-image"
+          src="https://www.metaweather.com/static/img/weather/png/64/hr.png"
+        />
+      </div>
+      <div
+        class="d-flex justify-content-end col-6"
+      >
+        <div
+          class="temperature d-flex flex-row"
+        >
+          <div
+            class="temperature__value d-flex flex-column text-end"
+          >
+            <div>
+              <span
+                class="fs-3"
+              >
+                32°C
+              </span>
+            </div>
+            <div
+              class="text-muted"
+            >
+              <span>
+                25°C
+              </span>
+               -
+               
+              <span>
+                34°C
+              </span>
+            </div>
+          </div>
+          <div
+            class="temperature__icon align-self-center"
+          >
+            <i
+              class="bi bi-thermometer-sun fs-1"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    class="forecast-tile mb-2 border rounded"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-3"
+      >
+        <div
+          class="d-flex flex-column"
+        >
+          <p
+            class="mb-0 text-uppercase fs-3"
+          >
+            Wed
+          </p>
+          <div
+            class="humidity"
+          >
+            <div>
+              <i
+                class="bi bi-droplet-fill"
+              />
+               
+              <span
+                class="text-muted"
+              >
+                69
+                %
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-3"
+      >
+        <img
+          class="w-image"
+          src="https://www.metaweather.com/static/img/weather/png/64/hr.png"
+        />
+      </div>
+      <div
+        class="d-flex justify-content-end col-6"
+      >
+        <div
+          class="temperature d-flex flex-row"
+        >
+          <div
+            class="temperature__value d-flex flex-column text-end"
+          >
+            <div>
+              <span
+                class="fs-3"
+              >
+                32°C
+              </span>
+            </div>
+            <div
+              class="text-muted"
+            >
+              <span>
+                25°C
+              </span>
+               -
+               
+              <span>
+                34°C
+              </span>
+            </div>
+          </div>
+          <div
+            class="temperature__icon align-self-center"
+          >
+            <i
+              class="bi bi-thermometer-sun fs-1"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    class="forecast-tile mb-2 border rounded"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-3"
+      >
+        <div
+          class="d-flex flex-column"
+        >
+          <p
+            class="mb-0 text-uppercase fs-3"
+          >
+            Thu
+          </p>
+          <div
+            class="humidity"
+          >
+            <div>
+              <i
+                class="bi bi-droplet-fill"
+              />
+               
+              <span
+                class="text-muted"
+              >
+                70
+                %
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-3"
+      >
+        <img
+          class="w-image"
+          src="https://www.metaweather.com/static/img/weather/png/64/hr.png"
+        />
+      </div>
+      <div
+        class="d-flex justify-content-end col-6"
+      >
+        <div
+          class="temperature d-flex flex-row"
+        >
+          <div
+            class="temperature__value d-flex flex-column text-end"
+          >
+            <div>
+              <span
+                class="fs-3"
+              >
+                32°C
+              </span>
+            </div>
+            <div
+              class="text-muted"
+            >
+              <span>
+                25°C
+              </span>
+               -
+               
+              <span>
+                34°C
+              </span>
+            </div>
+          </div>
+          <div
+            class="temperature__icon align-self-center"
+          >
+            <i
+              class="bi bi-thermometer-sun fs-1"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

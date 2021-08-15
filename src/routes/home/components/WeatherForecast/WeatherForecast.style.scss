@@ -1,0 +1,11 @@
+@import "~bootstrap/scss/bootstrap";
+
+.weather-forecast {
+  .default-zone {
+    height: 10em;
+    background-color: $gray-200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

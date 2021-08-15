@@ -1,0 +1,29 @@
+@import "~bootstrap/scss/bootstrap";
+
+.forecast-tile {
+  background-color: #fff;
+  padding: 1.25 * $spacer;
+
+  .humidity {
+    i {
+      color: $blue-300;
+    }
+  }
+
+  .w-image {
+    height: 3em;
+    width: 3em;
+  }
+
+  .temperature {
+    &__value {
+      margin-right: $spacer;
+    }
+
+    &__icon {
+      i {
+        color: $yellow;
+      }
+    }
+  }
+}
