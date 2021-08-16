@@ -3,6 +3,9 @@ import weatherApi from 'shared/apis/weather.api';
 
 import { ActionTypes } from './home.action';
 
+/**
+ * Handle fetching weather forecast data
+ */
 export function* fetchWeatherForecast({ payload }) {
   const { woeid } = payload || {};
 
@@ -21,6 +24,9 @@ export function* fetchWeatherForecast({ payload }) {
   }
 }
 
+/**
+ * Handle search locations
+ */
 export function* searchLocations({ payload: { query }}) {
   try {
     const { data } = yield call(weatherApi.searchLocations, query);

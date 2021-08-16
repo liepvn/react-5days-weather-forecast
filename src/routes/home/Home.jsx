@@ -4,6 +4,11 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { WeatherForecast } from './components/WeatherForecast';
 import { DEFAULT_LOCATION } from './home.constant';
 
+/**
+ * Home component
+ *
+ * @returns {JSX.Element}
+ */
 const Home = () => {
   return (
     <Container>

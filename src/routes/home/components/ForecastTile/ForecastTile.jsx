@@ -4,6 +4,12 @@ import { useIntl } from 'react-intl';
 
 import './ForecastTile.style.scss';
 
+/**
+ * Forecast title component
+ *
+ * @param {object} forecast The forecast object
+ * @returns {JSX.Element}
+ */
 function ForecastTile({ forecast }) {
   const intl = useIntl();
   const { temp, minTemp, maxTemp } = useMemo(

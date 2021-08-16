@@ -10,6 +10,13 @@ import { LocationSearchbox } from '../LocationSearchbox';
 
 import './WeatherForecast.style.scss';
 
+/**
+ * Weather forecast component
+ *
+ * @param {object} selected The selected options
+ * @param {function} 
+ * @returns {JSX.Element}
+ */
 export function WeatherForecast({ defaultLocation }) {
   const intl = useIntl();
   const dispatch = useDispatch();

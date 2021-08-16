@@ -7,6 +7,13 @@ import { searchLocations } from 'routes/home/home.action';
 
 import './LocationSearchbox.style.scss';
 
+/**
+ * Location searchbox component
+ *
+ * @param {object} selected The selected options
+ * @param {function} 
+ * @returns {JSX.Element}
+ */
 export function LocationSearchbox({ onChange, selected }) {
   const intl = useIntl();
   const dispatch = useDispatch();

@@ -4,6 +4,9 @@ import { take } from 'lodash';
 import { ActionTypes } from './home.action';
 import { WEATHER_STATE_IMAGE_BASE_URL } from './home.constant';
 
+/**
+ * Initial state
+ */
 export const homeState = {
   data: undefined,
   isSearching: false,
@@ -12,6 +15,9 @@ export const homeState = {
   forecast: []
 };
 
+/**
+ * Reducer
+ */
 const homeReducer = createReducer(
   {
     [ActionTypes.FETCH_WEATHER_FORECAST_REQUEST]: (draft) => {
