@@ -1,5 +1,5 @@
 {
-  "name": "weather-forecast",
+  "name": "react-5days-weather-forecast",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

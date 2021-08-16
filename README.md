@@ -46,7 +46,7 @@ yarn test
 
 ## Authors
 
-* **Liep Nguyen** - [Github](https://github.com/liepnguyen)
+* **Liep Nguyen** - [Github](https://github.com/liepvn)
 
 ## License
 

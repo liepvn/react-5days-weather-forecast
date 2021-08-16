@@ -19,7 +19,7 @@ const Home = () => {
       </Row>
       <Row>
         <a
-          href='https://github.com/liepnguyen'
+          href='https://github.com/liepvn'
           target='_blank'
           rel='noopener noreferrer'
           className='text-white text-center text-decoration-none mt-3'
