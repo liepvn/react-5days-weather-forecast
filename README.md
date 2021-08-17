@@ -12,7 +12,7 @@ The application starts with a request to MetaWeather to fetch forecast data for 
 ### 1. Loading screen
 ![Demo](./src/assets/demo-loading.png)
 
-### 1. Type ahead / Suggestion
+### 2. Type ahead / Suggestion
 ![Demo](./src/assets/demo-suggestion.png)
 
 ## Pre-requisites
@@ -31,7 +31,7 @@ Node >= 10.16 and npm >= 5.6
 yarn test
 ```
 
-## Stacks
+## Technical Stack
 
 * [React](https://facebook.github.io/react/) - A View Library
 * [Redux](http://redux.js.org/) - JavaScript State Container
